@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 5:4
+version:        1.0
+author:         Anthony Caccese
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+   <formatVersion>4</formatVersion>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="background" extra="true">
+         <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/space.png</path>
+         <color>141414</color>
+      </image>
+   </view>
+
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <color>141414</color>
+         </carousel>
+         <text name="systemInfo">
+            <backgroundColor>141414</backgroundColor>
+            <color>666666</color>
+            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.020833333333333</fontSize>
+         </text>
+         <image name="system-border" extra="true">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.58125</pos>
+            <size>0.25 0.002604166666667</size>
+            <path>./_inc/images/space.png</path>
+            <color>444444</color>
+         </image>
+         <text name="logoText">
+            <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+            <color>cccccc</color>
+            <forceUppercase>true</forceUppercase>
+         </text>
+      </view>
+   </feature>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <origin>0 0.5</origin>
+         <maxSize>0.125 0.0390625</maxSize>
+         <color>ffffff44</color>
+      </image>
+      <text name="logoText">
+         <size>0.125 0.0390625</size>
+         <fontSize>0.020833333333333</fontSize>
+         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+         <forceUppercase>true</forceUppercase>
+         <color>555555</color>
+         <alignment>left</alignment>
+      </text>
+      <textlist name="gamelist">
+         <selectorColor>333333ff</selectorColor>
+         <selectedColor>cccccc</selectedColor>
+         <primaryColor>cccccc</primaryColor>
+         <secondaryColor>cccccc</secondaryColor>
+         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+         <fontSize>0.028645833333333</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>
+         <lineSpacing>1.6</lineSpacing>
+      </textlist>
+      <image name="help-random" extra="true">
+         <path>./_inc/images/help-random.svg</path>
+         <size>0.103125 0.024739583333333</size>
+      </image>
+      <image name="help-launch" extra="true">
+         <path>./_inc/images/help-launch.svg</path>
+         <size>0.095833333333333 0.024739583333333</size>
+      </image>
+      <image name="help-favorite" extra="true">
+         <path>./_inc/images/help-favorite.svg</path>
+         <size>0.107291666666667 0.024739583333333</size>
+      </image>
+   </view>
+
+   <view name="basic">
+      <image name="logo">
+         <origin>0.5 0</origin>
+         <pos>.5 0.143229166666667</pos>
+      </image>
+      <text name="logoText">
+         <pos>0.4375 0.143229166666667</pos>
+         <alignment>center</alignment>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.1875 0.2265625</pos>
+         <size>0.625 0.520833333333333</size>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.0234375</fontSize>
+      </textlist>
+      <image name="help-launch" extra="true">
+         <origin>0 0</origin>
+         <pos>0.33125 0.78125</pos>
+      </image>
+      <image name="help-random" extra="true">
+         <origin>0 0</origin>
+         <pos>0.442708333333333 0.78125</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <origin>0 0</origin>
+         <pos>0.565625 0.78125</pos>
+      </image>
+   </view>
+
+   <view name="detailed,video">
+
+      <image name="title-bar" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.078125</size>
+         <path>./_inc/images/space.png</path>
+         <color>141414</color>
+      </image>
+      <image name="logo">
+         <pos>0.020833333333333 0.0390625</pos>
+      </image>
+      <text name="logoText">
+         <pos>0.020833333333333 0.01953125</pos>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.1875 0.01953125</pos>
+         <size>0.625 0.03125</size>
+         <lineSpacing>1</lineSpacing>
+         <selectorColor>33333300</selectorColor>
+      </textlist>
+      <image name="help-random" extra="true">
+         <origin>1 0.5</origin>
+         <pos>0.979166666666667 0.0390625</pos>
+      </image>
+      
+      <image name="md_image">
+         <origin>0.5 0</origin>
+         <pos>0.3 0.15234375</pos>
+         <maxSize>0.410416666666667 0.513020833333333</maxSize>
+      </image>
+
+      <image name="background" extra="true">
+         <color>cccccc</color>
+      </image>
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
+         <color>111111</color>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.018229166666667</fontSize>
+      </text>
+      <datetime name="md_lastplayed,md_releasedate">
+         <color>111111</color>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.018229166666667</fontSize>
+      </datetime>
+
+      <rating name="md_rating">
+         <pos>0.55 0.162760416666667</pos>
+         <size>0.239583333333333 0.026041666666667</size>
+      </rating>
+      <text name="md_lbl_lastplayed">
+         <pos>0.55 0.21484375</pos>
+         <size>0.127083333333333 0.020833333333333</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.6625 0.21484375</pos>
+         <size>0.09375 0.020833333333333</size>
+      </datetime>
+      <text name="md_lbl_players">
+         <pos>0.55 0.266927083333333</pos>
+         <size>0.127083333333333 0.020833333333333</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <text name="md_players">
+         <pos>0.6625 0.266927083333333</pos>
+         <size>0.09375 0.020833333333333</size>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.55 0.240885416666667</pos>
+         <size>0.127083333333333 0.020833333333333</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.6625 0.240885416666667</pos>
+         <size>0.09375 0.020833333333333</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.55 0.29296875</pos>
+         <size>0.127083333333333 0.020833333333333</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <text name="md_genre">
+         <pos>0.6625 0.29296875</pos>
+         <size>0.09375 0.020833333333333</size>
+      </text>
+
+      <image name="help-launch" extra="true">
+         <pos>0.55 0.475260416666667</pos>
+         <origin>0 0</origin>
+      </image>
+      <image name="help-favorite" extra="true">
+         <pos>0.660416666666667 0.475260416666667</pos>
+         <origin>0 0</origin>
+      </image>
+      <image name="md-description-border" extra="true">
+         <pos>0.095833333333333 0.72265625</pos>
+         <size>0.410416666666667 0.002604166666667</size>
+         <origin>0 0</origin>
+         <path>./_inc/images/space.png</path>
+         <color>aaaaaa</color>
+      </image>
+      <text name="md_description">
+         <pos>0.095833333333333 0.7421875</pos>
+         <size>.410416666666667 0.110677083333333</size>
+      </text>
+      
+   </view>
+
+   <view name="video">
+      <image name="md_marquee">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <image name="video-background" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.720833333333333 0.694010416666667</pos>
+         <size>0.341666666666667248 0.322916666666667</size>
+         <path>./_inc/images/space.png</path>
+         <color>bbbbbb</color>
+      </image>
+      <image name="video-screen" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.720833333333333 0.694010416666667</pos>
+         <maxSize>0.333333333333333 0.3125</maxSize>
+         <path>./_inc/images/space.png</path>
+         <color>000000</color>
+      </image>
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.720833333333333 0.694010416666667</pos>
+         <maxSize>0.333333333333333 0.3125</maxSize>
+         <delay>0</delay>
+         <default>./_inc/videos/static.mp4</default>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+   </view>
+
+   <feature supported="z-index">
+      <view name="system,basic,detailed,video">
+         <image name="background" extra="true">
+            <zIndex>1</zIndex>
+         </image>
+      </view>
+      <view name="system">
+         <image name="system-border" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+      </view>
+      <view name="detailed,video">
+         <image name="help-launch" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <image name="help-favorite" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <image name="md-description-border" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <text name="logoText">
+            <zIndex>200</zIndex>
+         </text>
+         <image name="help-random" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+      </view>
+      <view name="video">
+         <image name="video-background" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <image name="video-screen" extra="true">
+            <zIndex>105</zIndex>
+         </image>
+         <video name="md_video">
+            <zIndex>110</zIndex>
+         </video>
+      </view>
+   </feature>
+
+</theme>
